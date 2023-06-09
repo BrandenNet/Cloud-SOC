@@ -32,9 +32,9 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980369592330/Before_Windows_rdp_auth.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980960985159/Before_Syslog_ssh_auth.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852981242019850/Before_Nsg_Malicious_Allowed.png">
 
 ## Metrics Before Hardening / Security Controls
 
