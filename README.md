@@ -15,7 +15,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 <img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">  
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116846996842627222/New_Project_12.png">  
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -32,9 +32,9 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png">
 
 ## Metrics Before Hardening / Security Controls
 
@@ -44,11 +44,11 @@ Stop Time 2023-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 71836
+| Syslog                   | 1875
+| SecurityAlert            | 2
+| SecurityIncident         | 315
+| AzureNetworkAnalytics_CL | 1151
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -62,7 +62,7 @@ Stop Time	2023-03-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
+| SecurityEvent            | 11460
 | Syslog                   | 25
 | SecurityAlert            | 0
 | SecurityIncident         | 0
