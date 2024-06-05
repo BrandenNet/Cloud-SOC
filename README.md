@@ -1,5 +1,5 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-<img src=[](https://cdn.discordapp.com/attachments/929786441008021504/1116841350231490590/New_Project_10.png?ex=6661814f&is=66602fcf&hm=d5b75bb22d59220f6946e169413c21c6051957bf355d12cc7c423895f08c7f3e&)>
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116841350231490590/New_Project_10.png?ex=6661814f&is=66602fcf&hm=d5b75bb22d59220f6946e169413c21c6051957bf355d12cc7c423895f08c7f3e&">
 
 ## Introduction
 
