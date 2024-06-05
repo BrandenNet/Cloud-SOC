@@ -33,8 +33,8 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Attack Maps Before Hardening / Security Controls
 <img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980369592330/Before_Windows_rdp_auth.png?ex=66618c24&is=66603aa4&hm=54d83f9746db391d077687df869f8512135474c10e595582c276ddc181424a41&)">
-<img src="(https://cdn.discordapp.com/attachments/929786441008021504/1116852980960985159/Before_Syslog_ssh_auth.png?ex=66618c24&is=66603aa4&hm=5fc3f70bf09ca75d1feaa6bbdcb019cb6b46ce839d20c86fdfd0485563214f22&)">
-<img src="(https://cdn.discordapp.com/attachments/929786441008021504/1116852981242019850/Before_Nsg_Malicious_Allowed.png?ex=66618c24&is=66603aa4&hm=982c284f8e62a4609f6cfacc53f6478d1e3595c313c99b1a442ced40d7c77c0e&)">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980960985159/Before_Syslog_ssh_auth.png?ex=66618c24&is=66603aa4&hm=5fc3f70bf09ca75d1feaa6bbdcb019cb6b46ce839d20c86fdfd0485563214f22&">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852981242019850/Before_Nsg_Malicious_Allowed.png?ex=66618c24&is=66603aa4&hm=982c284f8e62a4609f6cfacc53f6478d1e3595c313c99b1a442ced40d7c77c0e&">
 
 ## Metrics Before Hardening / Security Controls
 
