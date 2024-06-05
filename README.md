@@ -15,7 +15,7 @@ In this project, I built a mini honeynet in Azure and ingest log sources from va
 <img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png?ex=66618422&is=666032a2&hm=4696ecee77cf7a4cbcbc82202cf7caba8dc8e76a98e7e0bb1d0305973962197b&)">  
 
 ## Architecture After Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116846996842627222/New_Project_12.png">  
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116846996842627222/New_Project_12.png?ex=66618692&is=66603512&hm=17fec87f930aaf5ebd5244c422025f6662735464b51970ed39afce524798c7c2&)">  
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -32,7 +32,7 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980369592330/Before_Windows_rdp_auth.png">
+<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980369592330/Before_Windows_rdp_auth.png?ex=66618c24&is=66603aa4&hm=54d83f9746db391d077687df869f8512135474c10e595582c276ddc181424a41&)">
 <img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980960985159/Before_Syslog_ssh_auth.png">
 <img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852981242019850/Before_Nsg_Malicious_Allowed.png">
 
