@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116841350231490590/New_Project_10.png?ex=6661814f&is=66602fcf&hm=d5b75bb22d59220f6946e169413c21c6051957bf355d12cc7c423895f08c7f3e&">
+![New_Project_10](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/edb00e5a-41bd-4ac7-b12e-0b622fb01ccc)
+
 
 ## Introduction
 
@@ -12,10 +13,12 @@ In this project, I built a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116844379638857759/New_Project_11.png?ex=66618422&is=666032a2&hm=4696ecee77cf7a4cbcbc82202cf7caba8dc8e76a98e7e0bb1d0305973962197b&)">  
+![New_Project_11](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/7e86807d-5344-4f0c-9f94-005bce984ce0)
+
 
 ## Architecture After Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116846996842627222/New_Project_12.png?ex=66618692&is=66603512&hm=17fec87f930aaf5ebd5244c422025f6662735464b51970ed39afce524798c7c2&)">  
+ ![New_Project_12](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/a6f7c58b-6c53-4767-816c-a46fa3acd45e)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -32,9 +35,10 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980369592330/Before_Windows_rdp_auth.png?ex=66618c24&is=66603aa4&hm=54d83f9746db391d077687df869f8512135474c10e595582c276ddc181424a41&)">
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852980960985159/Before_Syslog_ssh_auth.png?ex=66618c24&is=66603aa4&hm=5fc3f70bf09ca75d1feaa6bbdcb019cb6b46ce839d20c86fdfd0485563214f22&">
-<img src="https://cdn.discordapp.com/attachments/929786441008021504/1116852981242019850/Before_Nsg_Malicious_Allowed.png?ex=66618c24&is=66603aa4&hm=982c284f8e62a4609f6cfacc53f6478d1e3595c313c99b1a442ced40d7c77c0e&">
+![Before_Windows_rdp_auth](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/37723e11-08f2-4e27-b0f1-4e5a44afc6d2)
+![Before_Syslog_ssh_auth](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/61c6f50f-3d85-490c-8bcf-a5b6b9bebb10)
+![Before_Nsg_Malicious_Allowed2](https://github.com/BrandenNet/Cloud-SOC/assets/136115822/895b42ab-7201-4a8a-adf6-584eb47002dd)
+
 
 ## Metrics Before Hardening / Security Controls
 
